@@ -7,11 +7,13 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
     
     <l:VerticalLayout>
-        <RadioButton groupName="GroupA" text="Ändern" selected="{/enabled}" />
-        <RadioButton groupName="GroupA" text="Anzeigen" />
-        
-        <Input value="{/name}" enabled="{/enabled}" valueLiveUpdate="true"/>
-        <Text text="{/name}"/>
+    	<l:content>
+	        <RadioButton groupName="GroupA" text="Ändern" selected="{/enabled}" />
+	        <RadioButton groupName="GroupA" text="Anzeigen" />
+	        
+	        <Input value="{/name}" enabled="{/enabled}" valueLiveUpdate="true"/>
+	        <Text text="{/name}"/>
+        </l:content>
     </l:VerticalLayout>
     
 </core:View>
